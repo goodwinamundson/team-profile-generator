@@ -16,11 +16,16 @@
   
   
   ## Installation 
-  Step 1: copy the URL of the project on the github page where it says "clone"  Step 2: go to the terminal on your computer and type git clone [url] Step 3: navigate to the index.js file Step 4: install inquirer using the command ```npm install```
+  Step 1: copy the URL of the project on the github page where it says "clone"  Step 2: go to the terminal on your computer and type git clone [url] Step 3: navigate to the index.js file Step 4: install inquirer using the command 
+  ```
+  npm install
+  ```
 
 
   ## Usage 
   to run the program navigate to the root file and type the command node index.js into the terminal. Next answer all the questions and when finished navigate to the dist folder and open the index.html file. Here you will find your team profile.
+  
+  [Video Walkthrough](./images/Untitled_ Mar 6, 2022 10_43 PM.gif)
 
 
   ## License 
@@ -32,7 +37,9 @@
 
 
   ## Tests
-  there are four tests files with 13 tests. to run the tests for this project simply type ```npm run test``` into the command line
+  there are four tests files with 13 tests. to run the tests for this project simply type 
+  ```
+  npm run test``` into the command line
 
 
   ## Questions
