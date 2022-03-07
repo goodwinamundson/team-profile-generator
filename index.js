@@ -130,7 +130,7 @@ const internQuestions = () => {
     ])
     .then((internAnswers) => {
         const intern = new Intern(internAnswers.id, internAnswers.name, internAnswers.email, internAnswers.school)
-        team.push(intern)
+        teamArray.push(intern)
         switch(internAnswers.addMember){
             case 'Engineer':
                 engineerQuestions();
