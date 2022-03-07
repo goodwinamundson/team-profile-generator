@@ -25,7 +25,7 @@
   ## Usage 
   to run the program navigate to the root file and type the command node index.js into the terminal. Next answer all the questions and when finished navigate to the dist folder and open the index.html file. Here you will find your team profile.
   
-  [Video Walkthrough](./images/Untitled_ Mar 6, 2022 10_43 PM.gif)
+  [Video Walkthrough](../images/video-walkthrough2.gif)
 
 
   ## License 
@@ -39,7 +39,8 @@
   ## Tests
   there are four tests files with 13 tests. to run the tests for this project simply type 
   ```
-  npm run test``` into the command line
+  npm run test
+  ``` into the command line
 
 
   ## Questions
