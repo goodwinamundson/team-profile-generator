@@ -85,7 +85,7 @@ const engineerQuestions = () => {
     ])
     .then((engineerAnswers) => {
         const engineer = new Engineer(engineerAnswers.id, engineerAnswers.name, engineerAnswers.email, engineerAnswers.github)
-        team.push(engineer)
+        teamArray.push(engineer)
         switch(engineerAnswers.addMember) {
             case 'Engineer':
                 engineerQuestions();
