@@ -25,7 +25,7 @@
   ## Usage 
   to run the program navigate to the root file and type the command node index.js into the terminal. Next answer all the questions and when finished navigate to the dist folder and open the index.html file. Here you will find your team profile.
   
-  [Video Walkthrough](./images/video-walkthrough2.gif)
+  ![Video Walkthrough](./images/video-walkthrough2.gif)
 
 
   ## License 
