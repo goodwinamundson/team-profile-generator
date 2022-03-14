@@ -1,6 +1,6 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
-const generateHTML = require('./src/generateHTML')
+const generatePage = require('./src/generatePage')
 
 const Manager = require("./lib/Manager.js");
 const Engineer = require("./lib/Engineer.js");
@@ -49,7 +49,7 @@ const managerQuestions = () => {
                 internQuestions();
                 break;
             default: 
-            writeToFile('dist/index.html', generateHTML(teamArray))
+            writeToFile('dist/index.html', generatePage(teamArray))
         }
     });
 };
@@ -94,7 +94,7 @@ const engineerQuestions = () => {
                 internQuestions();
                 break;
             default: 
-            writeToFile('dist/index.html', generateHTML(teamArray))
+            writeToFile('dist/index.html', generatePage(teamArray))
         }
     })
 };
@@ -139,7 +139,7 @@ const internQuestions = () => {
                 internQuestions();
                 break;
             default:
-                writeToFile('dist/index.html', generateHTML(teamArray))
+                writeToFile('dist/index.html', generatePage(teamArray))
         }
     })
 }
