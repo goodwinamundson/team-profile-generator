@@ -2,8 +2,8 @@
 
   ![MIT](https://img.shields.io/badge/MIT-license-green)
 
-  ### Description 
-  the purpose of this project was to create an app that can be downloaded on to the user's computer and then used to create an html file showing a project's team members, their titles, emails, and other information about the team. 
+  ## Description 
+  The purpose of this project was to create an app that can be downloaded on to the user's computer and then used to create an html file showing a project's team members, their titles, emails, and other information about the team. 
 
 
   ## Table of Contents
